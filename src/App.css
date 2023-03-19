@@ -1,0 +1,54 @@
+#App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#board{
+  display: flex;
+  flex-wrap: wrap;
+  width: 480px;
+  height: 480px;
+  border: 1px solid black;
+}
+
+.case{
+  display: block;
+  width: 60px;
+  height: 60px;
+}.case.white{
+  background-color: #eae9d2;
+}.case.black{
+  background-color: #4b7399;
+}
+
+
+/* Black Pieces */
+[piece="bp"]{
+  content: url('../public/pieces/bp.png');
+}.bb{
+  content: url('../public/pieces/bb.png');
+}.bk{
+  content: url('../public/pieces/bk.png');
+}.bn{
+  content: url('../public/pieces/bn.png');
+}.bq{
+  content: url('../public/pieces/bq.png');
+}.br{
+  content: url('../public/pieces/br.png');
+}
+
+/* White Pieces */
+.wp{
+  content: url('../public/pieces/wp.png');
+}.wb{
+  content: url('../public/pieces/wb.png');
+}.wk{
+  content: url('../public/pieces/wk.png');
+}.wn{
+  content: url('../public/pieces/wn.png');
+}.wq{
+  content: url('../public/pieces/wq.png');
+}.wr{
+  content: url('../public/pieces/wr.png');
+}
